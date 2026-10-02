@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فروشگاه آنلاین مدرن | صفحه اصلی</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">فروشگاه<span>مدرن</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">صفحه اصلی</a></li>
+        <li><a href="products.html" class="">محصولات</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cart.html" class="cart-btn">
+          <span>سبد خرید</span>
+          <span class="cart-count" id="cart-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>تجربه خریدی <span>سریع، مدرن و مطمئن</span></h1>
+      <p>برترین محصولات دنیای تکنولوژی، مد و پوشاک، کتاب و لوازم خانگی را با ضمانت بهترین قیمت تهیه کنید.</p>
+      <div style="display:flex; gap:1rem; justify-content:center;">
+        <a href="products.html" class="btn btn-primary">مشاهده تمام محصولات</a>
+        <a href="#categories" class="btn btn-secondary">دسته‌بندی‌ها</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="section-title">
+      <h2>دسته‌بندی‌های <span>محبوب</span></h2>
+    </div>
+    <div class="categories-grid">
+      <a href="products.html" class="category-card">
+        <div class="category-icon">💻</div>
+        <h3>کالای دیجیتال</h3>
+        <p style="color:var(--text-secondary); font-size:0.85rem; margin-top:0.5rem;">لپ‌تاپ، موبایل و گجت‌ها</p>
+      </a>
+      <a href="products.html" class="category-card">
+        <div class="category-icon">🧥</div>
+        <h3>مد و پوشاک</h3>
+        <p style="color:var(--text-secondary); font-size:0.85rem; margin-top:0.5rem;">لباس، کفش و اکسسوری</p>
+      </a>
+      <a href="products.html" class="category-card">
+        <div class="category-icon">📚</div>
+        <h3>کتاب و فرهنگ</h3>
+        <p style="color:var(--text-secondary); font-size:0.85rem; margin-top:0.5rem;">کتاب‌های برتر و موفقیت</p>
+      </a>
+      <a href="products.html" class="category-card">
+        <div class="category-icon">☕</div>
+        <h3>خانه و آشپزخانه</h3>
+        <p style="color:var(--text-secondary); font-size:0.85rem; margin-top:0.5rem;">دکوراسیون و لوازم برقی</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h2>محصولات <span>برگزیده</span></h2>
+      <a href="products.html" style="color:var(--accent-cyan); font-size:0.95rem;">مشاهده همه ←</a>
+    </div>
+    <div class="products-grid" id="featured-grid"></div>
+  </section>
+
+  
+  <footer>
+    <div style="max-width:1200px; margin:0 auto;">
+      <p>© ۱۴۰۳ تمامی حقوق برای فروشگاه آنلاین مدرن محفوظ است.</p>
+      <p style="font-size:0.85rem; margin-top:0.5rem;">طراحی شده با استانداردهای مدرن وب و تم تیره اختصاصی.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', initHomePage);
+  </script>
+</body>
+</html>
